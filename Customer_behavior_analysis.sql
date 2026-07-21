@@ -23,6 +23,11 @@ order by avg("Review Rating") desc
 limit 5
 
 --Q4. Compare the average Purchase Amounts between Standard and Express Shipping. 
+
+
+
+
+       
 select "Shipping Type", 
 ROUND(AVG("Purchase Amount (USD)"),2)
 from customer
@@ -41,6 +46,31 @@ ORDER BY "Total Revenue","Avg Spend" DESC;
 
 --Q6. Which 5 products have the highest percentage of purchases with discounts applied?
 SELECT "Item Purchased",
+
+
+-- Update subscription status for 500 female customers
+UPDATE customer
+SET "Subscription Status" = 'Yes'
+WHERE ctid IN (
+    SELECT ctid
+    FROM customer
+    WHERE "Gender" = 'Female'
+    LIMIT 500
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
        ROUND(100.0 * SUM(CASE WHEN "Discount Applied" = 'Yes' THEN 1 ELSE 0 END)/COUNT(*),2) AS "Discount Rate"
 FROM customer
 GROUP BY "Item Purchased"
