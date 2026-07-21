@@ -8,7 +8,7 @@ It covers data loading, EDA, cleaning, SQL insights, and interactive dashboard c
 ----
 ## 📊 Dashboard Preview
 
-![Power BI Dashboard](Customer_behaviour_analysis.png)
+![Power BI Dashboard](Customer_behavior_analysis.png)
 
 ---
 ## 📂 **Dataset**
