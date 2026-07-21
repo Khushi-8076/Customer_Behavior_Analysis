@@ -5,6 +5,11 @@
 This project analyzes customer purchasing patterns using an end-to-end Data Analytics workflow.
 It covers data loading, EDA, cleaning, SQL insights, and interactive dashboard creation in Power BI, followed by a final business report.
 
+----
+## 📊 Dashboard Preview
+
+![Power BI Dashboard](Customer_behaviour_analysis.png)
+
 ---
 ## 📂 **Dataset**
 
