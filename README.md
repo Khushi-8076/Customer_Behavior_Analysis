@@ -8,9 +8,7 @@ It covers data loading, EDA, cleaning, SQL insights, and interactive dashboard c
 ----
 ## 📊 Dashboard Preview
 
-<p align="center">
-  <img src="./Customer_behavior_analysis.png" width="900">
-</p>
+![Dashboard](dashboard.png)
 
 
 ---
